@@ -17,7 +17,10 @@ There are a few scripts that can be used to start and stop the services
 * Browser traffic - use the `start-browser.sh` and `stop-browser.sh`
 * Load traffic - use the `start-load.sh` and `stop-load.sh`
 
-1 . Clone this repo and run the `start-app.sh` script
+1 . Deploy and start the app:
+* For environments utilizing Classic Full-Stack (default), run the `start-app.sh` script
+* For environments utilizing Cloud-Native or Application-Only, run the `start-app-apponly.sh`
+
 
 2 . Monitor pods.  You should see this:
 ```
